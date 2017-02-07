@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.michal.projektwzorce.View.PictureEdit">
+    <item
+
+    android:id="@+id/opcje"
+    android:orderInCategory="100"
+    android:showAsAction="always"
+    android:title="@string/action_settings" >
+
+        <item
+            android:id="@+id/seekbar1"
+            android:orderInCategory="101"
+            android:showAsAction="never"
+            android:title="Jasnosc"
+            />
+
+        <item
+            android:id="@+id/zapis"
+            android:orderInCategory="102"
+            android:showAsAction="never"
+            android:title="Zapisz"
+            />
+    </item>
+
+    <item
+    android:id="@+id/home"
+    android:icon="@drawable/home"
+        android:layout_gravity="left"
+    android:orderInCategory="1"
+    android:showAsAction="always"
+    android:title="Home"/>
+
+    <item
+        android:id="@+id/mail"
+        android:icon="@drawable/mail"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="Mail"/>
+
+    <item
+        android:id="@+id/sms"
+        android:icon="@drawable/sms"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Sms"/>
+
+
+    <item
+    android:id="@+id/facebook"
+    android:icon="@drawable/facebook"
+    android:orderInCategory="2"
+    android:showAsAction="always"
+    android:title="Facebook"/>
+</menu>
